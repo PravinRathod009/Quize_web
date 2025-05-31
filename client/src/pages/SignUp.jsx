@@ -148,7 +148,7 @@ const SignUp = () => {
               }}>
               User
             </button>
-            {/* <button
+             <button
               type="button"
               className={`${role === "admin" ? "bg-green-700" : "bg-transparent"} px-3 rounded-full`}
               onClick={(e) => {
@@ -157,7 +157,7 @@ const SignUp = () => {
                 setRole("admin")
               }}>
               Admin
-            </button> */}
+            </button> 
           </span>
 
           <span className=''>
